@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+<title>Dan O'Connor Portfolio Site</title>
+<style>
+body {
+      background-color: #494949;
+}
+h1   {style="font-family:Prestige Elite Std;"
+position: absolute;
+   left: 350px;
+   top: 102px;}
+   ul {
+     background-color: #494949;
+       list-style-type: none;
+       font-family: prestige elite std;
+       font-size: 23px;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: :#494949;
+
+   }
+   li {
+    float:left;
+    border-right: 1px solid #bbb;
+
+
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #494949;
+}
+a:hover {color:red;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+
+</style>
+</head>
+<body>
+  <img src="personallogo.png" alt="Personal Logo"style="width:302px;height:172px; margin-bottom: 40px;">
+    <h1>Daniel O'Connor Portfolio</h1>
+    <ul>
+     <li><a href="default.asp">Home</a></li>
+     <li><a href="contact.asp">Contact</a></li>
+     <li><a href="store.asp">Store</a></li>
+     <li style="float:right"><a href="about.asp">About</a></li>
+   </ul>
+
+
+</body>
